@@ -18,3 +18,5 @@ _Project used django, sqlparse and asgiref library_
     $ python manage.py runserver
     
 ```
+--------
+Project checked by flake8
