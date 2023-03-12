@@ -21,5 +21,17 @@ _Project used django, sqlparse and asgiref library_
     $ python manage.py runserver
     
 ```
+* for migration run:
+```
+    
+    $ python manage.py migrate
+    
+```
+* for create graph model:
+```
+    
+    ./manage.py graph_models -a -I Provider, City, Product, Client -o my_project.png
+    
+```
 --------
 Project checked by flake8
