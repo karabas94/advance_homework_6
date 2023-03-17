@@ -1,4 +1,5 @@
-from django.shortcuts import redirect, render, HttpResponse
+from django.shortcuts import redirect, render
+
 from .forms import Pythagor
 
 
