@@ -9,6 +9,11 @@
   * created graph model
   ![my_project.png](my_project.png)
   * created requests for SQL!
+  * created pythagor app
+  * pythagor app added to INSTALLED_APPS
+  * created views hypotenuse and index
+  * created forms
+  * created templates hypotenuse and index
 --------
 _Project used django, sqlparse and asgiref library_
 
@@ -31,6 +36,12 @@ _Project used django, sqlparse and asgiref library_
 ```
     
     ./manage.py graph_models -a -I Provider, City, Product, Client -o my_project.png
+    
+```
+* for check GET form:
+```
+    
+    http://127.0.0.1:8000/triangle/
     
 ```
 --------
