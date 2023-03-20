@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+<body>
+<h1>{{ obj }}</h1>
+<a href="{% url 'pythagor:people_edit' pk=obj.pk %}">Edit</a>
+<a href="{% url 'pythagor:people_delete' pk=obj.pk %}">Delete</a>
+</body>
+</html>
