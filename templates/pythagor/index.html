@@ -5,10 +5,8 @@
     <title>Triangle</title>
 </head>
 <body>
-    <h1>Pythagorean theorem:</h1>
-    <form action="{% url 'pythagor:index' %}" method="get">
-        {{ triangle_form.as_p }}
-        <input type="submit" name="ok" value="Submit">
-    </form>
+<p><a href="{% url 'pythagor:triangle' %}">Triangle</a> GET form</p>
+<p><a href="{% url 'pythagor:user_form' %}">Contact Form</a> POST form</p>
+<p><a href="{% url 'pythagor:result' %}">Users</a> Created users</p>
 </body>
 </html>
