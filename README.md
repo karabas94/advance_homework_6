@@ -14,6 +14,9 @@
   * created views hypotenuse and index
   * created forms
   * created templates hypotenuse and index
+  * created models with user
+  * created modelform for this user
+  * created views and templates for POST form
 --------
 _Project used django, sqlparse and asgiref library_
 
@@ -38,10 +41,10 @@ _Project used django, sqlparse and asgiref library_
     ./manage.py graph_models -a -I Provider, City, Product, Client -o my_project.png
     
 ```
-* for check GET form:
+* for check GET and POST form:
 ```
     
-    http://127.0.0.1:8000/triangle/
+    http://127.0.0.1:8000/
     
 ```
 --------
