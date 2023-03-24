@@ -26,6 +26,7 @@ class Log(models.Model):
     path = models.CharField(max_length=255)
     method = models.CharField(max_length=7, choices=CHOICES)
     timestamp = models.DateTimeField(auto_now_add=True)
+    status_code = models.IntegerField()
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
     data = models.JSONField(null=True, blank=True)
 
