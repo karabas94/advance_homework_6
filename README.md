@@ -17,6 +17,9 @@
   * created models with user
   * created modelform for this user
   * created views and templates for POST form
+  * created log models
+  * created log middleware
+  * created admin for pythagor app
 --------
 _Project used django, sqlparse and asgiref library_
 
@@ -45,6 +48,12 @@ _Project used django, sqlparse and asgiref library_
 ```
     
     http://127.0.0.1:8000/
+    
+```
+* for check admin:
+```
+    
+    http://127.0.0.1:8000/admin/
     
 ```
 --------
