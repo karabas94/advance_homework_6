@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Pythagorean theorem:</h1>
-    <form action="{% url 'pythagor:index' %}" method="get">
+    <form action="{% url 'pythagor:triangle' %}" method="get">
         {{ triangle_form.as_p }}
         <input type="submit" name="ok" value="Submit">
     </form>
